@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const targetURL = 'https://capgo_expo.digitalshift-ee.workers.dev/';
+
+            const currentURL = window.location.href;
+
+            if (currentURL === targetURL) {
+                window.location.replace('https://www.google.com');
+            }
+        });
+    </script>
+</head>
+<body>
+    <p>If you are not redirected automatically, follow this <a href="https://www.google.com">link to Google</a>.</p>
+</body>
+</html>
